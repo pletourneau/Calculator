@@ -1,18 +1,22 @@
-function saySomething(whatToSay) {
-    window.alert(whatToSay);
-  }
-  
-  function add(number1, number2) {
-    return number1 + number2;
-  }
+// business logic
+function product(number1, number2) {
+  return number1 / number2;
+}
 
-  saySomething("hi");
+function add(number1, number2) {
+  return number1 + number2;
+}
 
-  saySomething("The sum is " + add(3,5) + ".");
 
-  function add(number3, number4) {
-    return number3 + number4; 
-  }
+// user interface logic 
+
+
+const number1 = parseInt(prompt("Enter a number:"));
+const number2 = parseInt(prompt("Enter another number:"));
+
+
+
+window.alert(product(number1, number2));
 
 
 
