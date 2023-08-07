@@ -9,7 +9,10 @@ function saySomething(whatToSay) {
   saySomething("hi");
 
   saySomething("The sum is " + add(3,5) + ".");
-  
+
+  function add(number3, number4) {
+    return number3 + number4; 
+  }
 
 
 
